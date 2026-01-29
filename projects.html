@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imene Mellal | Certified Notion Consultant</title>
-    <meta name="description"
-        content="I'm Imene, a certified independent consultant building scalable systems with Notion. Creating magic with Notion.">
+    <title>All Projects | Imene Mellal</title>
+    <meta name="description" content="A collection of Notion workspaces and systems built by Imene.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +15,12 @@
 <body>
     <header id="navbar">
         <div class="container">
-            <a href="#" class="logo">IM.</a>
+            <a href="index.html" class="logo">IM.</a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="burger">
@@ -34,51 +33,17 @@
     </header>
 
     <main>
-        <section id="hero">
+        <section class="project-header-section" style="padding-bottom: 2rem;">
             <div class="container">
-                <div class="hero-content">
-                    <div class="badge fade-in">Notion Certified Admin</div>
-                    <h1 class="fade-in delay-1">Creating Magic with <span class="gradient-text">Notion</span></h1>
-                    <p class="fade-in delay-2">I'm Imene, a certified independent consultant building scalable systems
-                        with Notion.</p>
-                    <div class="cta-group fade-in delay-2">
-                        <a href="#work" class="btn">View Projects</a>
-                        <a href="#about" class="btn btn-outline">About Me</a>
-                    </div>
-                </div>
-                <!-- Hero Image Removed -->
+                <h1 class="project-title fade-in">All <span class="gradient-text">Projects</span></h1>
+                <p class="fade-in delay-1" style="color: var(--text-secondary); max-width: 600px; margin-top: 1rem;">
+                    A complete collection of Notion systems, dashboards, and websites built for clients.
+                </p>
             </div>
         </section>
 
-        <section id="about">
+        <section id="work" style="padding-top: 2rem;">
             <div class="container">
-                <h2 class="section-title fade-on-scroll">About Me</h2>
-                <div class="about-grid">
-                    <div class="about-text fade-on-scroll">
-                        <p class="lead">I help businesses streamline their operations through custom Notion workspaces.
-                        </p>
-                        <p>As a Notion Certified Admin, I specialize in designing intuitive dashboards, automating
-                            workflows, and building comprehensive management systems that turn chaos into clarity.</p>
-                        <p>Whether you need a simple project tracker or a full-scale company operating system, I build
-                            solutions that look beautiful and work flawlessly.</p>
-                    </div>
-                    <div class="about-stats fade-on-scroll">
-                        <div class="stat-item">
-                            <span class="stat-number">Certified</span>
-                            <span class="stat-label">Notion Consultant</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">Expert</span>
-                            <span class="stat-label">Workflow Automation</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="work">
-            <div class="container">
-                <h2 class="section-title fade-on-scroll">Selected Projects</h2>
                 <div class="project-grid">
                     <!-- Project 1 -->
                     <article class="project-card fade-on-scroll">
@@ -170,80 +135,20 @@
                         </a>
                     </article>
 
-
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <div class="container">
-                <h2 class="section-title fade-on-scroll">Client Love</h2>
-                <div class="testimonials-scroller">
-                    <div class="testimonials-track">
-                        <!-- Set 1 -->
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"Everything looks good, and I'm 100% satisfied so far"</p>
-                            <div class="client-name">- Dmitry Spitsberg</div>
-                            <div class="client-role">Altasource</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"I had a great experience working with her"</p>
-                            <div class="client-name">- Chris Eliott</div>
-                            <div class="client-role">Eliott Capitals</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"I do like the system a lot"</p>
-                            <div class="client-name">- Yusuf Sheikh</div>
-                            <div class="client-role">PC</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"This looks amazing"</p>
-                            <div class="client-name">- Sabina Reis</div>
-                            <div class="client-role">Reis Informatica</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"Looks very nice"</p>
-                            <div class="client-name">- Gaetan Beuten</div>
-                            <div class="client-role">Fourfront BV</div>
-                        </div>
-
-                        <!-- Set 2 (Duplicate for infinite loop) -->
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"Everything looks good, and I'm 100% satisfied so far"</p>
-                            <div class="client-name">- Dmitry Spitsberg</div>
-                            <div class="client-role">Altasource</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"I had a great experience working with her"</p>
-                            <div class="client-name">- Chris Eliott</div>
-                            <div class="client-role">Eliott Capitals</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"I do like the system a lot"</p>
-                            <div class="client-name">- Yusuf Sheikh</div>
-                            <div class="client-role">PC</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"This looks amazing"</p>
-                            <div class="client-name">- Sabina Reis</div>
-                            <div class="client-role">Reis Informatica</div>
-                        </div>
-                        <div class="testimonial-card">
-                            <div class="stars">★★★★★</div>
-                            <p>"Looks very nice"</p>
-                            <div class="client-name">- Gaetan Beuten</div>
-                            <div class="client-role">Fourfront BV</div>
-                        </div>
-                    </div>
+                    <!-- Project 7 -->
+                    <article class="project-card fade-on-scroll delay-2">
+                        <a href="testimonials-page-design.html"
+                            style="display: block; height: 100%; text-decoration: none; color: inherit;">
+                            <div class="project-image">
+                                <img src="testimonials-page-design-thumb.png" alt="Testimonials Page Design">
+                            </div>
+                            <div class="project-info">
+                                <h3>Testimonials Page Design</h3>
+                                <p>Mobile-friendly testimonials page design for Dmitry Spitsberg.</p>
+                                <span class="tag">Design</span>
+                            </div>
+                        </a>
+                    </article>
                 </div>
             </div>
         </section>
