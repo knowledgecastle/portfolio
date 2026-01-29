@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Projects Dashboard | Imene Mellal</title>
+    <meta name="description" content="A comprehensive IT project tracking system built in Notion for Sabina Reis.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IM.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#work">Projects</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-header-section">
+            <div class="container">
+                <span class="badge">Full System Re-build</span>
+                <h1 class="project-title fade-in">IT Projects<br><span class="gradient-text">Dashboard</span></h1>
+
+                <p class="project-summary fade-in delay-1">
+                    A Notion system was developed to streamline IT project management, addressing issues like lack of
+                    task tracking, inconsistent documentation, and absence of a clear dashboard. Key features include a
+                    linked Projects and Tasks database with visual progress indicators, a Meetings database for context,
+                    standardized project templates, and a priority-based dashboard. Notes are captured in a related log
+                    to preserve historical updates without overwriting. The implementation involved creating structured
+                    databases, adding reminders, and providing a walkthrough video for new users.
+                </p>
+
+                <div class="project-meta-grid fade-in delay-2">
+                    <div class="meta-item">
+                        <h4>Project Status</h4>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Client</h4>
+                        <p>Sabina Reis</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Date Completed</h4>
+                        <p>December 8, 2025</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Industry</h4>
+                        <p>IT</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Testimonial</h4>
+                        <p>“This looks amazing”</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Main Skills</h4>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Notion Design</span>
+                            <span class="skill-chip">Notion Workflows</span>
+                            <span class="skill-chip">Project Management</span>
+                            <span class="skill-chip">Database Templates</span>
+                        </div>
+                    </div>
+                    <div class="meta-item" style="grid-column: 1 / -1;">
+                        <h4>All Skills</h4>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Notion Design</span>
+                            <span class="skill-chip">Notion Workflows</span>
+                            <span class="skill-chip">Task Management</span>
+                            <span class="skill-chip">Problem Solving</span>
+                            <span class="skill-chip">Notion Automations</span>
+                            <span class="skill-chip">Database Templates</span>
+                            <span class="skill-chip">Notion Layout Optimization</span>
+                            <span class="skill-chip">Project Management</span>
+                            <span class="skill-chip">Systems Thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article class="container case-study-content">
+
+            <div class="content-block fade-on-scroll">
+                <h2>The Problem</h2>
+                <hr style="border-color: #333; margin-bottom: 1.5rem; opacity: 0.5;">
+                <p>The company needed a single, easy-to-run Notion system to track all IT projects, because the database
+                    was being handed off in 2 weeks to someone new to Notion.</p>
+                <p><strong>Key pain points were:</strong></p>
+                <ul>
+                    <li>No dedicated Tasks database connected to Projects, which made progress tracking and handoff
+                        harder.</li>
+                    <li>No reliable way to see project progress at a glance (they wanted a “task bar” style progress
+                        indicator).</li>
+                    <li>Inconsistent project setup and documentation, which made each project page different and harder
+                        for a new owner to follow.</li>
+                    <li>No clear dashboard for priorities, upcoming due dates, and deadlines, plus no “how to use this”
+                        area for acronyms and onboarding guidance.</li>
+                </ul>
+                <br>
+                <p><strong>Open question from the client:</strong></p>
+                <p>They wanted a way to write notes inside a database “Notes” column <em>and</em> have those notes
+                    automatically appear in a Notes section on the project page, without losing historical updates when
+                    a new note replaces the old one.</p>
+            </div>
+
+            <div class="content-block fade-on-scroll">
+                <div class="callout-box">
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7H6V8a6 6 0 0 1 6-6z">
+                            </path>
+                            <path d="M12 14a10 10 0 0 0-10 10v0a10 10 0 0 0 10-10z"></path>
+                            <path d="M12 14a10 10 0 0 1 10 10v0a10 10 0 0 1-10-10z"></path>
+                        </svg>
+                        The Solution
+                    </h3>
+                    <p>Built a connected project management system in Notion that is simple to maintain and easy to hand
+                        off:</p>
+                    <ul>
+                        <li><strong>Projects database</strong> as the source of truth, improved with a clear structure
+                            and better views for navigation.</li>
+                        <li><strong>Tasks database</strong> linked to Projects, with status, deadline reminders, and a
+                            visual progress indicator (“progress bar”) surfaced on each project.</li>
+                        <li><strong>Meetings database</strong> linked to Projects, with meeting templates and meeting
+                            summaries surfaced in the Projects database for quick context.</li>
+                        <li><strong>Project templates</strong> so every new project is created with consistent sections
+                            (notes, tasks, meetings, and key info).</li>
+                        <li><strong>Dashboard experience</strong> via views that highlight priorities, completed work,
+                            and what to focus on next.</li>
+                    </ul>
+                    <p>For the notes history need:</p>
+                    <ul>
+                        <li>Recommended capturing updates as a <strong>related log</strong> (e.g., meeting notes and or
+                            update entries) instead of overwriting a single “Notes” cell, so past updates are never
+                            lost.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-block fade-on-scroll">
+                <div class="callout-box" style="border-color: #8B5CF6; background: rgba(139, 92, 246, 0.05);">
+                    <h3 style="color: #8B5CF6;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                        The Process
+                    </h3>
+                    <p>Delivered the build in a set of concrete setup steps:</p>
+                    <ul style="list-style: disc; margin-left: 1.5rem; color: #ccc; line-height: 1.8;">
+                        <li style="margin-bottom: 1rem;">Created a <strong>Tasks database</strong> with a completion
+                            checkbox and connected it to Projects.</li>
+                        <li style="margin-bottom: 1rem;">Added <strong>deadline reminders</strong> for tasks (2 days
+                            before deadline).</li>
+                        <li style="margin-bottom: 1rem;">Implemented a <strong>tasks progress bar</strong> visible on
+                            each Project to show completion at a glance.</li>
+                        <li style="margin-bottom: 1rem;">Created a <strong>Meetings database</strong>, linked it to
+                            Projects, and sorted meetings so the latest appears first.</li>
+                        <li style="margin-bottom: 1rem;">Surfaced <strong>meeting notes summaries</strong> inside the
+                            Projects database for fast status and context.</li>
+                        <li style="margin-bottom: 1rem;">Cleaned up the Projects database by merging completed work into
+                            the main database and adding a dedicated <strong>Completed Projects</strong> view (Status =
+                            Done).</li>
+                        <li style="margin-bottom: 1rem;">Added a <strong>Priority-based view</strong> (grouped by
+                            priority, with conditional color styling).</li>
+                        <li style="margin-bottom: 1rem;">Built <strong>templates</strong> for both Projects and Meeting
+                            Notes to standardize information capture.</li>
+                        <li style="margin-bottom: 1rem;">Grouped properties into logical sections to make the databases
+                            easier for a new Notion user to understand.</li>
+                        <li style="margin-bottom: 1rem;">Recorded a short <strong>screen walkthrough video</strong> and
+                            invited follow-up questions.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </article>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-box glass-card fade-on-scroll">
+                    <h2>Like this project?</h2>
+                    <p>Let's build something similar for your business.</p>
+                    <a href="mailto:hello@imenemellal.com" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Imene Mellal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
