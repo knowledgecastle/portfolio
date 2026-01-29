@@ -396,6 +396,10 @@ section {
 .contact-box p {
     color: var(--text-secondary);
     margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
 }
 
 .btn-primary {
