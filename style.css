@@ -80,14 +80,12 @@ h3 {
 }
 
 .logo img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: #fff;
-    object-fit: cover;
-    /* or contain based on preference, cover usually safer for filling circles */
+    object-fit: contain;
     padding: 2px;
-    /* Slight border effect */
 }
 
 .nav-links {
