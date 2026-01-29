@@ -74,18 +74,15 @@ h3 {
     align-items: center;
 }
 
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
 .logo {
     display: flex;
     align-items: center;
-}
-
-.logo img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    object-fit: contain;
-    padding: 2px;
 }
 
 .nav-links {
@@ -395,8 +392,6 @@ section {
     background: linear-gradient(145deg, #1A1A1A, #111);
     border-radius: 30px;
     border: 1px solid #222;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .contact-box h2 {
