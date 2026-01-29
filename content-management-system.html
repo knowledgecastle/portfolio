@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management System | Imene Mellal</title>
+    <meta name="description" content="A complete Notion system rebuild for real estate content management.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IM.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#work">Projects</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-header-section">
+            <div class="container">
+                <span class="badge">Full System Re-build</span>
+                <h1 class="project-title fade-in">Content<br><span class="gradient-text">Management System</span></h1>
+
+                <p class="project-summary fade-in delay-1">
+                    The project involved rebuilding a messy Notion content dashboard for a real estate client into a
+                    clean, functional Brand HQ. Key improvements included restructuring the workspace, standardizing
+                    content workflows, and implementing practical solutions for Notion's limitations. The process
+                    involved auditing the existing setup, planning a parallel rebuild, and enabling the client with
+                    walkthroughs and notifications for effective usage and management.
+                </p>
+
+                <div class="project-meta-grid fade-in delay-2">
+                    <div class="meta-item">
+                        <h4>Project Status</h4>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Client</h4>
+                        <p>Yusuf Sheikh</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Date Completed</h4>
+                        <p>December 10, 2025</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Industry</h4>
+                        <p>Real Estate</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Testimonial</h4>
+                        <p>“I do like the system a lot”</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Main Skills</h4>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Notion Design</span>
+                            <span class="skill-chip">Notion Automations</span>
+                            <span class="skill-chip">Notion Workflows</span>
+                            <span class="skill-chip">Task Management</span>
+                        </div>
+                    </div>
+                    <div class="meta-item" style="grid-column: 1 / -1;">
+                        <h4>All Skills</h4>
+                        <div class="skill-chips">
+                            <span class="skill-chip">Notion Layout Optimization</span>
+                            <span class="skill-chip">Notion Workflows</span>
+                            <span class="skill-chip">Task Management</span>
+                            <span class="skill-chip">Problem Solving</span>
+                            <span class="skill-chip">Notion Automations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article class="container case-study-content">
+
+            <div class="content-block fade-on-scroll">
+                <h2>The Problem</h2>
+                <hr style="border-color: #333; margin-bottom: 1.5rem; opacity: 0.5;">
+                <ul>
+                    <li>The client had an existing Notion content dashboard that had been built by another freelancer,
+                        but it had become <em>messy, confusing, duplicated,</em> and not usable day-to-day.</li>
+                    <li>Updates in one “channel page” were unintentionally affecting other pages because everything was
+                        using the same underlying database (so edits were “leaking” across channels).</li>
+                    <li>The client wanted a clear end-to-end workflow across multiple platforms (Instagram, YouTube,
+                        Email, etc.) with an easy way to track stages like idea → script → record → edit → schedule →
+                        publish, plus ownership and performance tracking.</li>
+                    <li>The old workspace structure also created practical issues: visibility/access problems, a missing
+                        or hard-to-find content calendar, and UI constraints like platform icons stacking in
+                        board/gallery views.</li>
+                </ul>
+            </div>
+
+            <div class="content-block fade-on-scroll">
+                <div class="callout-box">
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7H6V8a6 6 0 0 1 6-6z">
+                            </path>
+                            <path d="M12 14a10 10 0 0 0-10 10v0a10 10 0 0 0 10-10z"></path>
+                            <path d="M12 14a10 10 0 0 1 10 10v0a10 10 0 0 1-10-10z"></path>
+                        </svg>
+                        The Solution
+                    </h3>
+                    <ul>
+                        <li>Rebuilt the dashboard into a <em>clean, central Brand HQ</em> that the client can actually
+                            use every day, without risking damage to the previous (messy) inline-dashboard setup.</li>
+                        <li>Restructured the workspace by creating a new Teamspace for the “official” HQ and archiving
+                            the old HQ, then fixing permissions by adding the client as an Owner so the new HQ was
+                            visible.</li>
+                        <li>Restored and repositioned key navigation elements like the Content Calendar, ensuring it was
+                            not deleted and was accessible in the new structure.</li>
+                        <li>Standardized the content workflow and views so content can move through stages clearly,
+                            while keeping databases and relations logical (simple, not over-engineered).</li>
+                        <li>Cleaned up the databases by removing unnecessary templates and standardizing how content
+                            items are created.</li>
+                        <li>Implemented practical workarounds where Notion has limitations:
+                            <ul>
+                                <li>Icons can display side-by-side in Table view but will stack in Board/Gallery, so the
+                                    dashboard uses the most appropriate view for the desired layout.</li>
+                                <li>Platform “logo-only” selections require a separate database and a naming workaround
+                                    (e.g., using a space) because Notion pages cannot be unnamed.</li>
+                            </ul>
+                        </li>
+                        <li>Added / standardized the process checklist so it is available per content item (and can be
+                            embedded consistently without relying on a separate “checklist database” structure that
+                            causes issues).</li>
+                        <li>Added an EOD reporting system as a dedicated database with daily tasks and notifications, so
+                            the assigned person gets a reminder and the client gets a completion history.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-block fade-on-scroll">
+                <div class="callout-box" style="border-color: #8B5CF6; background: rgba(139, 92, 246, 0.05);">
+                    <h3 style="color: #8B5CF6;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                        The Process
+                    </h3>
+                    <ol style="list-style: decimal; margin-left: 1.5rem; color: #ccc; line-height: 1.8;">
+                        <li style="margin-bottom: 1rem;"><strong>Audit + scope confirmation</strong><br>
+                            Reviewed the client’s Loom walkthrough to understand exactly what was broken and what “done”
+                            needed to look like. Confirmed timeline, estimated effort (1–2 hours initially), and
+                            clarified constraints and tradeoffs (database separation, icon limitations).</li>
+
+                        <li style="margin-bottom: 1rem;"><strong>Plan to salvage without breaking existing
+                                structure</strong><br>
+                            Decided to rebuild a clean HQ in parallel rather than patching the messy structure.</li>
+
+                        <li style="margin-bottom: 1rem;"><strong>Rebuild the HQ (structure + navigation)</strong><br>
+                            Created the new Brand HQ as a Teamspace and archived the old HQ. Moved/relocated key assets
+                            (like the Content Calendar) into the new HQ, then ensured it was discoverable in the menu.
+                        </li>
+
+                        <li style="margin-bottom: 1rem;"><strong>Workflow + views setup</strong><br>
+                            Separated the system into clearer data structures (e.g., separating YouTube vs Socials into
+                            separate databases when needed) to stop cross-channel side effects. Set up the core stages
+                            (idea → script → record → edit → schedule → published) and adjusted view layout choices to
+                            match what the client wanted to see. Built the key operational views (e.g., views filtered
+                            by Owner, and views for the Video Editor / Thumbnail workflow) so each person sees only what
+                            matters. Configured sorting so “Ready to edit” is ordered by the publishing timeline.
+                            Optimized dashboard ordering.</li>
+
+                        <li style="margin-bottom: 1rem;"><strong>UI fixes + Notion limitations management</strong><br>
+                            Investigated and explained the icon stacking behavior across view types, then implemented
+                            the best compromise. Created the Social “icons database” workaround (including an “empty
+                            name” workaround using a space) to display platform logos. Updated social channel icons
+                            (including two Instagram accounts) and ensured new items inherit the right icon by default.
+                        </li>
+
+                        <li style="margin-bottom: 1rem;"><strong>Client enablement (videos + mini SOP)</strong><br>
+                            Delivered Loom/Drive walkthroughs showing what changed, why it changed, and how to
+                            reorganize properties in database page layouts. Implemented and validated notifications
+                            based on statuses. Provided guidance to troubleshoot common issues. Clarified
+                            funnel/pipeline structure options.</li>
+
+                        <li style="margin-bottom: 1rem;"><strong>Add-ons and refinements</strong><br>
+                            Implemented the EOD daily reporting database with reminders/notifications. Continued
+                            iterative improvements based on client Loom feedback until the system was stable and usable.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </article>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-box glass-card fade-on-scroll">
+                    <h2>Like this project?</h2>
+                    <p>Let's build something similar for your business.</p>
+                    <a href="mailto:hello@imenemellal.com" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Imene Mellal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
