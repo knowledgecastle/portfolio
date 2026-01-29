@@ -75,9 +75,19 @@ h3 {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+    /* or contain based on preference, cover usually safer for filling circles */
+    padding: 2px;
+    /* Slight border effect */
 }
 
 .nav-links {
